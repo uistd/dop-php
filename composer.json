@@ -1,0 +1,26 @@
+{
+  "name": "ffan/dop/php",
+  "description": "FFan dop php common files",
+  "keywords": [
+    "ffan",
+    "php",
+    "dop"
+  ],
+  "type": "composer",
+  "authors": [
+    {
+      "name": "huangshunzhao",
+      "email": "huangshunzhao@wanda.cn",
+      "role": "Founder and project lead"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ffan\\dop\\": ""
+    }
+  },
+  "minimum-stability": "dev"
+}
