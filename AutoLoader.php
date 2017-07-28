@@ -66,4 +66,4 @@ class AutoLoader
 }
 
 //注册加载处理函数
-spl_autoload_register(['DopAutoLoader', 'autoload']);
+spl_autoload_register(['ffan\\dop\\AutoLoader', 'autoload']);
