@@ -17,7 +17,7 @@ class DopMock
     public static function strRangeMock($min_len, $max_len)
     {
         static $str_table = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
-        $total_len = strlen($str_table);
+        $total_len = strlen($str_table) - 1;
         $re_len = mt_rand($min_len, $max_len);
         $result_str = '';
         for ($i = 0; $i < $re_len; ++$i) {
