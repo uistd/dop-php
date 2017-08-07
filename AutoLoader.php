@@ -36,7 +36,7 @@ class AutoLoader
         if (!isset(self::$namespace_set[$ns])) {
             return false;
         }
-        $base_path = __DIR__ . '/' . self::$namespace_set[$ns] . DIRECTORY_SEPARATOR;
+        $base_path = self::$namespace_set[$ns] . DIRECTORY_SEPARATOR;
         $class_name = substr($full_name, $ns_pos + 1);
         $file_name = $base_path . $class_name . '.php';
         if (!is_file($file_name)) {
