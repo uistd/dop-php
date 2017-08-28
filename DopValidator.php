@@ -92,7 +92,7 @@ class DopValidator
      */
     public static function isValidMobile($mobile)
     {
-        return preg_match('/^(\+86)?1[34578]{1}\d{9}$/', $mobile) > 0;
+        return preg_match('/^1[34578]{1}\d{9}$/', $mobile) > 0;
     }
 
     /**
