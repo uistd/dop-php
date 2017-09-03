@@ -80,7 +80,7 @@ class DopValidator extends Validator
         if (null !== $min_len && $str_len < $min_len) {
             return false;
         }
-        if (null !== $min_len && $str_len > $max_len) {
+        if (null !== $max_len && $str_len > $max_len) {
             return false;
         }
         return true;
