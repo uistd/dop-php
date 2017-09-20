@@ -1,6 +1,6 @@
 <?php
 
-namespace ffan\dop;
+namespace FFan\Dop;
 /**
  * Class DopAutoLoader 自动加载类
  */

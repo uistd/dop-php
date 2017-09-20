@@ -1,11 +1,11 @@
 <?php
 
-namespace ffan\dop;
+namespace FFan\Dop;
 use FFan\Std\Common\Validator;
 
 /**
  * Class DopValidator
- * @package ffan\dop
+ * @package FFan\Dop
  */
 class DopValidator extends Validator
 {

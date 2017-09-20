@@ -1,10 +1,10 @@
 <?php
 
-namespace ffan\dop;
+namespace FFan\Dop;
 
 /**
  * Class DopEncode PHP二进制协议打包类
- * @package ffan\dop
+ * @package FFan\Dop
  */
 class DopEncode
 {

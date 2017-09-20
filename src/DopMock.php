@@ -1,10 +1,10 @@
 <?php
 
-namespace ffan\dop;
+namespace FFan\Dop;
 
 /**
  * Class DopMock
- * @package ffan\dop
+ * @package FFan\Dop
  */
 class DopMock
 {
