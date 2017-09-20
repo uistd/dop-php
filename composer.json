@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "ffan\\dop\\": ""
+      "FFan\\Dop\\": "src"
     }
   },
   "minimum-stability": "dev",
