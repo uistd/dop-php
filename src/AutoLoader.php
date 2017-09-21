@@ -31,6 +31,9 @@ class AutoLoader
      */
     private static function tryLoadClass($full_name)
     {
+        if ('\\' !== $full_name{0}) {
+            $full_name = '\\'. $full_name;
+        }
         $ns_pos = strrpos($full_name, "\\");
         $ns = substr($full_name, 0, $ns_pos);
         if (!isset(self::$namespace_set[$ns])) {
