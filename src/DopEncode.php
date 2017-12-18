@@ -1,6 +1,6 @@
 <?php
 
-namespace FFan\Dop;
+namespace FFan\DopLib;
 
 /**
  * Class DopEncode PHP二进制协议打包类

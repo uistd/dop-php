@@ -1,7 +1,7 @@
 <?php
 
-namespace FFan\Dop;
-use FFan\Std\Common\Validator;
+namespace FFan\DopLib;
+use UiStd\Common\Validator;
 
 /**
  * Class DopValidator

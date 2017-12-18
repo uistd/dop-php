@@ -1,8 +1,8 @@
 {
-  "name": "ffan/php-dop",
-  "description": "FFan dop php common files",
+  "name": "uistd/php-dop",
+  "description": "uistd dop php common files",
   "keywords": [
-    "ffan",
+    "ui service",
     "php",
     "dop"
   ],
@@ -16,28 +16,15 @@
   ],
   "require": {
     "php": ">=5.5.0",
-    "ffan/std-common": "2.*"
+    "uistd/common": "3.*"
   },
   "autoload": {
     "psr-4": {
-      "FFan\\Dop\\": "src"
+      "UiStd\\DopLib\\": "src"
     }
   },
-  "minimum-stability": "dev",
+  "minimum-stability": "stable",
   "config": {
     "secure-http": false
-  },
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "http://composer.intra.ffan.com/repo/private/"
-    },
-    {
-      "type": "composer",
-      "url": "http://composer.intra.ffan.com/repo/packagist/"
-    },
-    {
-      "packagist": false
-    }
-  ]
+  }
 }
