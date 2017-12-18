@@ -1,6 +1,6 @@
 <?php
 
-namespace FFan\DopLib;
+namespace UiStd\DopLib;
 /**
  * Class DopAutoLoader 自动加载类
  */

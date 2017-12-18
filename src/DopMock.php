@@ -1,6 +1,6 @@
 <?php
 
-namespace FFan\DopLib;
+namespace UiStd\DopLib;
 
 /**
  * Class DopMock

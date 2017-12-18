@@ -1,6 +1,6 @@
 <?php
 
-namespace FFan\DopLib;
+namespace UiStd\DopLib;
 
 /**
  * Class DopDecode PHP二进制解包类
