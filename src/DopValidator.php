@@ -5,7 +5,7 @@ use UiStd\Common\Validator;
 
 /**
  * Class DopValidator
- * @package FFan\Dop
+ * @package UiStd\DopLib
  */
 class DopValidator extends Validator
 {

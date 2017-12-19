@@ -4,7 +4,7 @@ namespace UiStd\DopLib;
 
 /**
  * Class DopDecode PHP二进制解包类
- * @package FFan\Dop
+ * @package UiStd\DopLib
  */
 class DopDecode
 {

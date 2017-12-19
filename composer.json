@@ -1,6 +1,6 @@
 {
   "name": "uistd/php-dop",
-  "description": "uistd dop php common files",
+  "description": "DOP自动生成的代码运行所需要的依赖文件",
   "keywords": [
     "ui service",
     "php",

@@ -4,7 +4,7 @@ namespace UiStd\DopLib;
 
 /**
  * Class DopEncode PHP二进制协议打包类
- * @package FFan\Dop
+ * @package UiStd\DopLib
  */
 class DopEncode
 {

@@ -4,7 +4,7 @@ namespace UiStd\DopLib;
 
 /**
  * Class DopMock
- * @package FFan\Dop
+ * @package UiStd\DopLib
  */
 class DopMock
 {
